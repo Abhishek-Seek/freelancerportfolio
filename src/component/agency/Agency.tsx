@@ -1,5 +1,4 @@
 import { Card } from 'antd'
-import Meta from 'antd/es/card/Meta'
 import { title } from 'process'
 import React from 'react'
 

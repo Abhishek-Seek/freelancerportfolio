@@ -8,15 +8,13 @@ import NavImage from "@/assets/images/logo.png";
 const HeroSection = () => {
   return (
     <section className="relative overflow-hidden py-6 px-6 text-center bg-gray-900">
-      {/* 🔹 Background Image with Blur */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat blur-sm brightness-75"
         style={{ backgroundImage: "url('/bg.jpg')" }}
       ></div>
 
-      {/* 🔹 Overlay Content */}
       <div className="relative z-10">
-        {/* Navbar */}
+
         <div className="flex justify-between items-center px-6 sm:px-20 mb-10 text-white">
           <Image src={NavImage} alt="Logo" height={80} width={80} className=""/>
           <ul className="hidden md:flex justify-center items-center gap-10 text-lg font-medium">
@@ -30,7 +28,6 @@ const HeroSection = () => {
           </Button>
         </div>
 
-        {/* Hero Text */}
         <div className="max-w-4xl mx-auto text-white pt-20">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 drop-shadow-lg">
             🎯 Freelance Digital Marketing Expert in Bangalore

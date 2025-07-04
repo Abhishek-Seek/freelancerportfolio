@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import aboutImg from '@/assets/images/it.jpeg'; // Make sure image is placed correctly in assets folder
+import aboutImg from '@/assets/images/it.jpeg'; 
 
 const AboutMe = () => {
     return (

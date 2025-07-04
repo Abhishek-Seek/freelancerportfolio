@@ -5,9 +5,7 @@ import Faq from "@/component/faq/Faq";
 import Footer from "@/component/footer.tsx/Footer";
 import HeroSection from "@/component/hero-section/HeroSection";
 import MyService from "@/component/my-service/MyService";
-import NavBar from "@/component/navbar/NavBar";
 import OurClient from "@/component/our-client/OurClient";
-import Image from "next/image";
 
 export default function Home() {
   return (
