@@ -7,7 +7,7 @@ const DigitalMarketingSection = () => {
     <section className="bg-white py-16 px-6 md:px-20">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl md:text-4xl font-bold text-center mb-8">
-           How <span className="text-pink-400">Digital Marketing</span> Helps and Promotes Your Business
+           How <span className="text-blue-400">Digital Marketing</span> Helps and Promotes Your Business
         </h2>
         <p className="text-gray-700 leading-7 text-lg">
           Digital marketing is one of the most powerful tools available to businesses today. Whether

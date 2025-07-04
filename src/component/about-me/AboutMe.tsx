@@ -6,7 +6,7 @@ import aboutImg from '@/assets/images/it.jpeg';
 
 const AboutMe = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 px-6 md:px-20 py-16 gap-10 items-center'>
+        <div className='grid grid-cols-1 bg-white md:grid-cols-2 px-6 md:px-20 py-16 gap-10 items-center'>
             <div>
                 <h1 className='text-4xl font-bold mb-4'>About Me</h1>
                 <p className='leading-7 text-gray-700'>

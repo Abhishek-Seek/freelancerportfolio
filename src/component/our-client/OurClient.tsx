@@ -77,7 +77,7 @@ const OurClient = () => {
                 <div className="lg:h-[700px] xl:h-[800px] px-0 w-full mt-10 md:mt-32">
 
                     <div data-aos="zoom-in-up">
-                        <h1 className="text-2xl md:text-4xl font-extrabold text-center text-gray-800">Client <span className='text-pink-400'>Testimonials</span></h1>
+                        <h1 className="text-2xl md:text-4xl font-extrabold text-center text-gray-800">Client <span className='text-blue-400'>Testimonials</span></h1>
                     </div>
 
                     <div data-aos="zoom-in-up" className="relative mt-16 w-full ">
