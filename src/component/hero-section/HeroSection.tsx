@@ -5,7 +5,19 @@ import Image from "next/image";
 import React from "react";
 import NavImage from "@/assets/images/logo.png";
 
+
+
+
 const HeroSection = () => {
+
+  const scrollToSection = (id:string) => {
+    const store = document.getElementById(id);
+    store?.scrollIntoView({ behavior: "smooth" });
+  };
+
+
+
+
   return (
     <section className="relative overflow-hidden py-6 px-6 text-center bg-gray-900">
       <div
@@ -16,12 +28,12 @@ const HeroSection = () => {
       <div className="relative z-10">
 
         <div className="flex justify-between items-center px-6 sm:px-20 mb-10 text-white">
-          <Image src={NavImage} alt="Logo" height={80} width={80} className=""/>
+          <Image src={NavImage} alt="Logo" height={80} width={80} className="" />
           <ul className="hidden md:flex justify-center items-center gap-10 text-lg font-medium">
-            <a href="#home"><li>Home</li></a>
-            <a href="#services"><li>Service</li></a>
-            <a href="#team"><li>Team</li></a>
-            <a href="#contact"><li>Contact</li></a>
+            <a onClick={() => scrollToSection("home")}>Home</a>
+            <a onClick={()=>scrollToSection("services")}>Service</a>
+            <a onClick={()=>scrollToSection("team")}>Team</a>
+            <a onClick={()=>scrollToSection("contact")}>Contact</a>
           </ul>
           <Button className="!py-5 !px-4 !bg-blue-500 !text-white hover:!bg-blue-600 transition">
             Get Started

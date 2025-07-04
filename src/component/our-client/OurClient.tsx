@@ -22,27 +22,27 @@ const teamMembers = [
         role: "Clinic Owner",
         image: NavImg,
         description: "He revamped our website and ran high-ROI Facebook campaigns. We got more qualified leads in 30 days than in the last 6 months! ",
-        
+
     },
     {
         name: "Arvind N.",
         role: "Ecommerce Business Owner",
         image: NavImg,
         description: "Excellent SEO and web development support. Truly a one-man army for digital marketing!",
-       
+
     },
     {
         name: "John M",
         role: "Manager",
         image: NavImg,
         description: "Excellent SEO and web development support. Truly a one-man army for digital marketing!",
-        
+
     },
 ]
 
 
 const OurClient = () => {
-   const carouselRef = useRef<CarouselRef>(null);
+    const carouselRef = useRef<CarouselRef>(null);
     const prevSlide = () => {
         if (carouselRef.current) {
             carouselRef.current.prev();
@@ -74,10 +74,10 @@ const OurClient = () => {
     return (
         <div>
             <div data-aos="zoom-in-up">
-                <div className="lg:h-[700px] xl:h-[800px] px-0 w-full mt-10 md:mt-32 bg-white">
+                <div id="team" className="lg:h-[700px] xl:h-[800px] px-0 w-full pt-10 md:pt-32 bg-white">
 
                     <div data-aos="zoom-in-up">
-                        <h1 className="text-2xl md:text-4xl font-extrabold text-center text-black">Client <span className='text-blue-400'>Testimonials</span></h1>
+                        <h1 className="text-4xl md:text-4xl font-extrabold text-center text-black">Client <span className='text-blue-400'>Testimonials</span></h1>
                     </div>
 
                     <div data-aos="zoom-in-up" className="relative mt-16 w-full ">

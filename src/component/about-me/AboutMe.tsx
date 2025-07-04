@@ -6,7 +6,7 @@ import aboutImg from '@/assets/images/it.jpeg';
 
 const AboutMe = () => {
     return (
-        <div className='grid grid-cols-1 bg-white md:grid-cols-2 px-6 md:px-20 py-16 gap-10 items-center'>
+        <div id="home" className='grid grid-cols-1 bg-white md:grid-cols-2 px-6 md:px-20 py-16 gap-10 items-center'>
             <div>
                 <h1 className='text-4xl font-bold mb-4 text-black'>About Me</h1>
                 <p className='leading-7 text-gray-700'>
@@ -22,7 +22,7 @@ const AboutMe = () => {
             </div>
 
             <div className='flex justify-center'>
-                <div className='relative h-[500px] w-[700px] rounded-lg overflow-hidden shadow-lg'>
+                <div className='relative h-[350px] lg:h-[500px] w-[700px] rounded-lg overflow-hidden shadow-lg'>
                     <Image
                         src={aboutImg}
                         alt="About Me Image"
