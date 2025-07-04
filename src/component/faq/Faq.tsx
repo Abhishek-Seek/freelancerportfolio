@@ -41,8 +41,8 @@ const Faq = () => {
     return (
 
 
-        <div className='px-2 lg:px-40'>
-            <h1 className='text-3xl lg:text-4xl text-center font-bold mt-10 lg:pb-16'>Frequently <span className='text-blue-400'>Asked Questions</span> (FAQs)</h1>
+        <div className='px-2 lg:px-40 bg-white'>
+            <h1 className='text-3xl lg:text-4xl text-center font-bold mt-10 lg:pb-16 text-black'>Frequently <span className='text-blue-400'>Asked Questions</span> (FAQs)</h1>
             <div className="grid grid-cols-1 py-10 gap-6">
                 {faqData.map((faq, index) => (
                     <Card key={index}>

@@ -49,8 +49,8 @@ const reason = [
 
 const Agency = () => {
     return (
-        <div className='px-4 lg:px-60 '>
-            <h1 className='text-4xl font-bold lg:text-center py-6 mt-20'> Why Choose Me Over <span className='text-blue-400'>an Agency?</span></h1>
+        <div className='px-4 lg:px-60 bg-white'>
+            <h1 className='text-4xl font-bold lg:text-center py-6 mt-20 text-black'> Why Choose Me Over <span className='text-blue-400'>an Agency?</span></h1>
             {/* <div className='grid grid-cols-4 gap-4'>
                 <Card
                     hoverable
