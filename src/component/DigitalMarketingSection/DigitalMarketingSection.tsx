@@ -11,14 +11,14 @@ const DigitalMarketingSection = () => {
         </h2>
         <p className="text-gray-700 leading-7 text-lg">
           Digital marketing is one of the most powerful tools available to businesses today. Whether
-          you're a local service provider or a global ecommerce brand, digital marketing helps you
+          you are a local service provider or a global ecommerce brand, digital marketing helps you
           reach, engage, and convert your ideal customers — all in real time.
         </p>
 
         <p className="text-gray-700 leading-7 text-lg mt-6">
           Through targeted strategies like <strong>SEO (Search Engine Optimization)</strong>, your website can
           appear on the first page of Google when potential customers search for services you offer.
-          <strong> Google Ads</strong> and <strong>PPC campaigns</strong> drive instant traffic and leads, ensuring you're visible
+          <strong> Google Ads</strong> and <strong>PPC campaigns</strong> drive instant traffic and leads, ensuring you are visible
           exactly when users are ready to take action.
         </p>
 
@@ -41,7 +41,7 @@ const DigitalMarketingSection = () => {
         </p>
 
         <p className="text-gray-700 leading-7 text-lg mt-6 font-semibold">
-          In short, digital marketing is not just promotion — it’s a growth engine that puts your
+          In short, digital marketing is not just promotion — it is a growth engine that puts your
           business in front of the right people, at the right time, with the right message.
         </p>
       </div>

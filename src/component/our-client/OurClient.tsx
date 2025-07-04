@@ -5,33 +5,36 @@ import { Carousel } from 'antd'
 import React, { useEffect, useRef } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { CarouselRef } from 'antd/es/carousel';
+import Image from 'next/image';
+import NavImg from "@/assets/images/sunder.jpg";
 
 
 const teamMembers = [
     {
         name: "Priya D.",
         role: "Real Estate Agent",
-        image: "/sunder.jpg",
+        image: NavImg,
         description: "We saw a 200% jump in organic traffic and leads after working with [Your Name]. His SEO and Google Ads strategies are rock solid!",
     },
     {
         name: "Raj M",
         role: "Clinic Owner",
-        image: "/sunder.jpg",
+        image: NavImg,
         description: "He revamped our website and ran high-ROI Facebook campaigns. We got more qualified leads in 30 days than in the last 6 months! ",
         
     },
     {
         name: "Arvind N.",
         role: "Ecommerce Business Owner",
-        image: "/sunder.jpg",
+        image: NavImg,
         description: "Excellent SEO and web development support. Truly a one-man army for digital marketing!",
        
     },
     {
         name: "John M",
         role: "Manager",
-        image: "/sunder.jpg",
+        image: NavImg,
         description: "Excellent SEO and web development support. Truly a one-man army for digital marketing!",
         
     },
@@ -39,9 +42,7 @@ const teamMembers = [
 
 
 const OurClient = () => {
-
-    const carouselRef = useRef<any>(null);
-
+   const carouselRef = useRef<CarouselRef>(null);
     const prevSlide = () => {
         if (carouselRef.current) {
             carouselRef.current.prev();
@@ -112,7 +113,7 @@ const OurClient = () => {
                                 <div key={index} className="px-1 md:px-4 py-8">
                                     <div className="flex flex-col  hover:border-orange-400 items-center text-center shadow-lg rounded-2xl bg-white transition-transform duration-300 hover:scale-105 group">
                                         <div>
-                                            <img
+                                            <Image
                                                 src={item.image}
                                                 alt={item.name}
                                                 className="h-40 w-40 rounded-full object-cover mt-10 shadow-[0_0_0_4px_#d1d5db] transition-all duration-300 hover:scale-110 group-hover:shadow-orange-500"

@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import aboutImg from '@/assets/images/it.jpeg'; 
+import aboutImg from '@/assets/images/it.jpeg';
 
 const AboutMe = () => {
     return (
@@ -10,13 +10,13 @@ const AboutMe = () => {
             <div>
                 <h1 className='text-4xl font-bold mb-4'>About Me</h1>
                 <p className='leading-7 text-gray-700'>
-                    I’m a Bangalore-based freelance digital marketing specialist helping businesses rank
+                    I am a Bangalore-based freelance digital marketing specialist helping businesses rank
                     higher, get discovered, and grow faster — without paying for bloated agency packages. With
                     over <strong>8 years</strong> of hands-on experience, I provide results-driven strategies across SEO, paid
                     ads, content, and design.
                 </p>
                 <p className='mt-6 text-gray-700'>
-                    Whether you're a small business, ecommerce store, or local service provider — I build the
+                    Whether you are a small business, ecommerce store, or local service provider — I build the
                     strategy, execute the campaigns, and deliver reports that drive ROI.
                 </p>
             </div>
@@ -29,7 +29,7 @@ const AboutMe = () => {
                         fill
                         className='object-cover transition duration-300 ease-in-out hover:scale-110'
                         priority
-                         
+
                     />
                 </div>
             </div>
