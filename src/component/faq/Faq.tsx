@@ -52,9 +52,9 @@ const Faq = () => {
                         >
                             <h1 className="text-xl font-semibold">{faq.question}</h1>
                             {openIndex === index ? (
-                                <MinusOutlined className="text-2xl bg-pink-400 rounded-full !text-white" />
+                                <MinusOutlined className="text-2xl bg-blue-400 rounded-full !text-white" />
                             ) : (
-                                <PlusOutlined className="text-2xl !text-pink-400 rounded-full" />
+                                <PlusOutlined className="text-2xl !text-blue-400 rounded-full" />
                             )}
                         </div>
 
